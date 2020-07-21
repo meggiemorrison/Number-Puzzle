@@ -14,16 +14,13 @@ public class Arithmetic {
    public static String leftToRight(List<Integer> nums, String ops, int target) {  
        int total = nums.get(0);
        Boolean failed = null;
-       //System.out.println("Ops: length " + ops.length() + "\nOps----> : " + ops);
        for (int i = 0; i < ops.length(); i++) {
            if (ops.length() > 0 && ops.charAt(i) == '+') {
                total += nums.get(i+1);
                System.out.println("+total : " + total);
-               //System.out.println("+++++++!");
            } else {
                total *= nums.get(i+1);
                System.out.println("*total : " + total);
-               //System.out.println("*******");
            }     
        }
 
