@@ -1,1 +1,1 @@
-# Computation Puzzle
+# Number Puzzle
